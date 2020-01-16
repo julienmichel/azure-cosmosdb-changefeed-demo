@@ -7,8 +7,8 @@ namespace Data.Generator
 {
     public class Program
     {
-        const string endpoint = "https://jmisql.documents.azure.com:443/";
-        const string apikey = "xQKHTC9oNwGkxZZVhnhpKQI0RptgzezbK8ZiKAcxG1W9Ezyx35UjLUr9SNp1oxujKs9xfcBKPFiXUfBzrDsogQ==";
+        const string endpoint = "{FILL_ME}";
+        const string apikey = "{FILL_ME}";
         public static async Task Main(string[] args)
         {
             using CosmosClient client = new CosmosClient(endpoint, apikey);
